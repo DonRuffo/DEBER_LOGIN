@@ -27,7 +27,8 @@
         </constraints>
         <properties>
           <foreground color="-15790321"/>
-          <text value="Label"/>
+          <icon value="com/sun/java/swing/plaf/windows/icons/JavaCup32.png"/>
+          <text value="Futbol"/>
         </properties>
       </component>
       <component id="680c5" class="javax.swing.JButton" binding="regresarButton" default-binding="true">

@@ -1,6 +1,7 @@
 package org.example;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -10,6 +11,8 @@ public class Hobbie {
     private JButton regresarButton;
 
     ImageIcon imageIcon=new ImageIcon("C:\\Users\\PANCHITO\\IdeaProjects\\IMAGENES");
+    JLabel imageLabel=new JLabel(imageIcon);
+
     public Hobbie() {
         regresarButton.addActionListener(new ActionListener() {
             @Override
